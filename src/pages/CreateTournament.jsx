@@ -1,3 +1,4 @@
+import { generateFixtures } from '../utils/generateFixtures'
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
